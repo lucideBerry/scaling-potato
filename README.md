@@ -13,6 +13,7 @@ Which are the keywords not in use?
 > c) strictfp and synchronized
 
 > d) const and goto
+> Answer - D
 
 ***
 #### Question 2
@@ -21,6 +22,9 @@ Keywords are non-reserved word in java
 > true
 
 > false
+
+Answer - False
+
 
 ***
 #### Question 3
@@ -34,6 +38,7 @@ Which method is the entry point for Java programs?
 
 > d) public void main (String [] args){}
 
+Answer - B
 ***
 #### Question 4
 Data is stored in ............
@@ -46,6 +51,8 @@ Data is stored in ............
 
 > d) Data Type
 
+Answer - A
+
 ***
 #### Question 5
 Datatypes impacts on memory allocation
@@ -54,6 +61,7 @@ Datatypes impacts on memory allocation
 
 > False
 
+Answer - True
 ***
 #### Question 6
 Identify correct Output:
@@ -76,6 +84,8 @@ public class Test_Variable {
 
 > d) 10 and java
 
+Answer - A
+
 ***
 #### Question 7
 Variable name is case-sensitive.
@@ -84,6 +94,8 @@ Variable name is case-sensitive.
 
 > False
 
+Answer True
+
 ***
 #### Question 8
 Space is permitted in variable name.
@@ -91,6 +103,8 @@ Space is permitted in variable name.
 > True
 
 > False
+
+Answer - False
 
 ***
 #### Question 9
@@ -104,6 +118,8 @@ What is the range of short?
 
 > d) -32768 to 32767
 
+Answer - D
+
 ***
 #### Question 10
 Which suffix is used while declaring a long data type?
@@ -115,6 +131,8 @@ Which suffix is used while declaring a long data type?
 > c) L
 
 > d) l
+
+Answer - C
 
 ***
 #### Question 11
@@ -136,6 +154,7 @@ public static void main(String[] args){
 
 > d) -123
 
+Answer = -128
 ***
 #### Question 12
 Identify correct Output:
@@ -170,6 +189,8 @@ public static void main(String[] args){
 > 10.1289522
 > 10.128952248
 
+Answer - Type Mismatch
+
 ***
 #### Question 13
 What is Precision of float type variable?
@@ -181,6 +202,8 @@ What is Precision of float type variable?
 > c) 16 decimals
 
 > d) 7 decimals
+
+Answer - D
 
 ***
 #### Question 14
@@ -200,6 +223,8 @@ Identify the data type with the following sentences:
 
 > d) String
 
+Answer - A
+
 ***
 #### Question 15
 In Java, boolean datatype can be represented by 1 or 0.
@@ -207,6 +232,8 @@ In Java, boolean datatype can be represented by 1 or 0.
 > True
 
 > False
+
+Answer - False
 
 ***
 #### Question 16
@@ -217,6 +244,8 @@ How to cast 64-bit datatype into 32-bit datatype?
 > b) Explicit Typecasting
 
 > c) Widening Typecasting
+
+Answer - B
 
 ***
 #### Question 17
@@ -229,6 +258,8 @@ In implicit Typecasting, what is the correct sequence of data type compatibility
 > c) byte-> long >int->short-> float->double
 
 > d) byte->short->int>long->float->double
+
+Answer - D
 
 ***
 #### Question 18
@@ -246,6 +277,7 @@ In Java, we can create BigDecimal objects of which of the following types?
 
 > f) All of the above
 
+Answer - E
 ***
 #### Question 19
 The floating-point data types are used for calculating accurate precise values in a financial calculation.
@@ -253,7 +285,7 @@ The floating-point data types are used for calculating accurate precise values i
 > True
 
 > False
-
+Answer - False
 ***
 #### Question 20
 BigDecimal is a part of which Java package?
@@ -265,7 +297,7 @@ BigDecimal is a part of which Java package?
 > c) java.math
 
 > d) java.io
-
+Answer - C
 ***
 #### Question 21
 Solve an equation:
@@ -278,4 +310,7 @@ variable a --> int a = any integer number
 variable b --> float b = any decimal number
 variable value --> datatype?? = a² + 2ab + b²
 ```
-
+Answer-
+int a = 2;
+float b = 1.2f;
+System.out.println((a * a) + (a * b * 2 ) + (b * b));
